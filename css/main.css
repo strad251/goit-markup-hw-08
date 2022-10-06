@@ -1353,7 +1353,9 @@ img {
             flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    gap: 30px;
+    -webkit-column-gap: 30px;
+       -moz-column-gap: 30px;
+            column-gap: 30px;
   }
 }
 
