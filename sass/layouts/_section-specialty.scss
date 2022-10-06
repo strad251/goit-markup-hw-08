@@ -15,9 +15,12 @@
 
 .specialty__feature {
    max-width: 450px;
-   &:not(:last-child) {
-     margin-bottom: 10px;
-   }
+   &:not(:last-child){
+    margin-bottom: 30px;}
+    
+      @media screen and (min-width: 768px) {
+      margin-bottom: 0;
+  }
   @media screen and (min-width: 768px) {
       width: 354px;
   }
@@ -47,6 +50,7 @@
   font-weight: 700;
   line-height: 1.17;
   color: var(--dark-text-color);
+  margin-bottom: 10px;
 
     @media screen and (min-width: 768px) {
       text-align: start;
@@ -56,8 +60,4 @@
 
 .specialty__description {
   line-height: 1.71;
-  margin-bottom: 30px;
-      @media screen and (min-width: 768px) {
-      margin-bottom: 0;
-  }
 }

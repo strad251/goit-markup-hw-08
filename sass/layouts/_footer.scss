@@ -114,12 +114,17 @@
   @media screen and (min-width: 480px){
     width: 450px;
   }
+  @media screen and (min-width: 1200px){
+    width: 358px;
+  }
 }
 
+
 .footer-form__btn {
+  margin: 0 auto;
   margin-top: 20px;
-  margin-left: 12px;
-  display: inline-flex;
+  display: block;
+
   align-items: center;
   justify-content: center;
   gap: 10px;
@@ -142,7 +147,9 @@
   cursor: pointer;
 
   @media screen and (min-width:1200px) {
-    margin-top: 0;
+  margin-top: 0;
+  margin-left: 12px;
+  display: inline-flex;
     
   }
 }
