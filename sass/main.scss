@@ -1,0 +1,30 @@
+// utils styles
+@import './utils/vars';
+@import './utils/visually-hidden';
+
+
+// base styles
+@import './base/common';
+@import './base/reset';
+@import './base/container';
+
+
+// components styles
+@import './components/logo';
+@import './components/titles';
+@import './components/links';
+@import './components/icons';
+@import './components/modal';
+@import './components/menu';
+
+
+// layouts styles
+@import './layouts/header';
+@import './layouts/section-hero';
+@import './layouts/section-specialty';
+@import './layouts/section-what-we-do';
+@import './layouts/section-team';
+@import './layouts/section-clients';
+@import './layouts/footer';
+@import './layouts/portfolio';
+

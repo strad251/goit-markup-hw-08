@@ -1,0 +1,142 @@
+
+/**
+  |============================
+  | Page footer
+  |============================
+*/
+
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+  @media screen and (min-width: 1200px) {
+    justify-content: center;
+    text-align: left;
+  }
+}
+
+.page-footer {
+  padding: 60px 0;
+  background-color: var(--dark-background-color);
+}
+
+
+.address {
+  font-style: normal;
+  line-height: 1.71;
+  margin-top: 20px;
+
+  color: var(--white-text-color);
+}
+
+.link-footer {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address__link {
+  font-weight: normal;
+  opacity: .6;
+  text-decoration: none;
+  line-height: 1.14;
+
+  color: var(--white-text-color);
+  &:hover,
+  &:focus {
+      color: var(--highlited-text-color)
+  }
+}
+
+.footer__join-wrap {
+  margin: 60px auto;
+    @media screen and (min-width: 768px){
+    margin: 0;
+    margin-left: 70px;
+  }
+}
+
+.footer__social-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--white-text-color);
+}
+
+.footer__social {
+  display: flex;
+  gap: 10px;
+}
+
+.footer__social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      background-color: var(--highlited-text-color);
+    }
+}
+
+.footer-form {
+      @media screen and (min-width: 768px) {
+        margin: 60px auto;
+      }
+      @media screen and (min-width: 1200px) {
+        margin: 0;
+        margin-left: auto;
+      }
+}
+
+.footer-form__input {
+  background-color: transparent;
+  min-width: 300px;
+  padding: 15px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  color: var(--white-text-color);
+
+  @media screen and (min-width: 480px){
+    width: 358px;
+  }
+}
+
+.footer-form__btn {
+  margin-top: 20px;
+  margin-left: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  background: #2196F3;
+  color: var(--white-text-color);
+  
+  
+  border: none;
+  border-radius: 4px;
+
+  padding: 10px 28px;
+  cursor: pointer;
+}

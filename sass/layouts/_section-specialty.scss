@@ -1,0 +1,61 @@
+/**
+  |============================
+  | Section specialty
+  |============================
+*/
+
+.specialty {
+  @media screen and (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+  }
+}
+
+.specialty__feature {
+   max-width: 450px;
+  @media screen and (min-width: 768px) {
+      width: 354px;
+  }
+  @media screen and (min-width: 1200px) {
+      width: 270px;
+  }
+}
+
+.specialty__icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: rgba(245, 244, 250, 1);
+  border-radius: 4px;
+}
+
+.specialty__icon {
+  width: 70px;
+  height: 70px;
+}
+
+
+.specialty__title {
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.17;
+  color: var(--dark-text-color);
+  margin-bottom: 30px;
+
+    @media screen and (min-width: 768px) {
+      text-align: start;
+  }
+}
+
+
+.specialty__description {
+  line-height: 1.71;
+  margin-bottom: 30px;
+      @media screen and (min-width: 768px) {
+      margin-bottom: 0;
+  }
+}

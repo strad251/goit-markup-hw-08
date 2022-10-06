@@ -1,0 +1,34 @@
+/**
+  |============================
+  | Section what we do
+  |============================
+*/
+
+.section.what {
+  padding-top: 0;
+    @media screen and (max-width: 1200px) {
+    display: none;
+  }
+}
+
+.what__box {
+  position: relative;
+}
+
+.image-description {
+  position: absolute;
+  bottom: 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+  background: #2F303ACC;
+  width: 100%;
+  height: 70px;
+}
