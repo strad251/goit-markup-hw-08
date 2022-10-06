@@ -34,14 +34,19 @@
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;
-  width: 528px;
-  height: 581px;
+  width: 300px;
+  height: 609px;
   padding: 40px;
 
   background-color: var(--white-text-color);
   border-radius: 4px;
 
   transition: transform 150ms 300ms, opacity 150ms 300ms;
+
+  @media screen and (min-width: 768px) {
+    width: 528px;
+    height: 581px;
+  }
 }
 
 .modal__btn {
